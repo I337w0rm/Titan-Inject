@@ -4,6 +4,8 @@ A powerful, standalone, and stealth-focused DLL Injector written in pure **C++ (
 Titan Inject features a custom Dark Mode GUI, multiple advanced injection methods, cloud payload delivery, and trace-cleaning capabilities.
 
 **Developed by:** Adnan 1337w0rm ([@I337w0rm](https://github.com/I337w0rm))
+
+
 <img width="405" height="477" alt="image" src="https://github.com/user-attachments/assets/7290b761-820e-4351-8886-a2c7e357da8f" />
 
 ---
