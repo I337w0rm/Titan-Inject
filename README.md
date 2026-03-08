@@ -10,25 +10,25 @@ Titan Inject features a custom Dark Mode GUI, multiple advanced injection method
 
 ---
 
-## 🔥 Advanced Features
+##  Advanced Features
 
 * **Multiple Injection Methods:**
   * **Standard:** Classic `CreateRemoteThread` + `LoadLibraryA` injection.
   * **APC Stealth:** Uses Asynchronous Procedure Calls (`QueueUserAPC`) to hijack existing threads and silently load the payload without creating suspicious remote threads.
   * **Process Hollowing (Base):** UI and base logic initialized for suspending and unmapping target memory.
-* **☁️ Cloud Inject:** Don't want the DLL on your disk? Paste an HTTP/HTTPS direct link into the DLL path. Titan Inject will download it to a hidden Temp folder, inject it, and instantly wipe the payload from the disk.
-* **🧹 Trace Cleaner:** Built-in stealth mechanism that flushes the Windows DNS cache and clears the "Recent Documents" history post-injection to leave zero traces behind.
-* **⚙️ Smart Automation (Multi-threaded):**
+* ** Cloud Inject:** Don't want the DLL on your disk? Paste an HTTP/HTTPS direct link into the DLL path. Titan Inject will download it to a hidden Temp folder, inject it, and instantly wipe the payload from the disk.
+* ** Trace Cleaner:** Built-in stealth mechanism that flushes the Windows DNS cache and clears the "Recent Documents" history post-injection to leave zero traces behind.
+* ** Smart Automation (Multi-threaded):**
   * **Auto-Inject:** Select a process, and the injector will wait in the background. As soon as the game/app starts, it injects automatically.
   * **Delay Inject:** Set a delay (in seconds) to wait before injecting, preventing crashes on slow-loading games.
-* **🖥️ Modern Win32 GUI:** * Custom Dark Mode interface with zero external dependencies (No Qt, No ImGui).
+* ** Modern Win32 GUI:** * Custom Dark Mode interface with zero external dependencies (No Qt, No ImGui).
   * **Real-time Debug Console:** Integrated log terminal to monitor every step of the injection process.
   * **Drag & Drop:** Simply drag your `.dll` file into the window.
-* **🌍 Dual-Language:** Switch seamlessly between English and Bosnian on the fly.
+* ** Dual-Language:** Switch seamlessly between English and Bosnian on the fly.
 
 ---
 
-## 🎮 How to Use
+##  How to Use
 
 1. Run `TitanInject.exe` **as Administrator** (Mandatory for memory reading/writing).
 2. Accept the initial disclaimer.
@@ -40,7 +40,7 @@ Titan Inject features a custom Dark Mode GUI, multiple advanced injection method
 
 ---
 
-## ⚠️ Disclaimer & Warning
+##  Disclaimer & Warning
 
 **STRICTLY FOR EDUCATIONAL AND REVERSE ENGINEERING PURPOSES.**
 
